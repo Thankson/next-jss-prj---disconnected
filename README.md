@@ -17,3 +17,7 @@
 `jss scaffold ComponentName`
 `jss scaffold some/new/path/ComponentName`
 `jss scaffold atoms/button/Button`
+
+> some nexjs's config
+[Absolute Imports and Module path aliases](https://nextjs.org/docs/advanced-features/module-path-aliases)
+`tsrafce`
