@@ -1,0 +1,8 @@
+fields:
+  pageTitle: Atoms
+placeholders:
+  jss-main:
+    - componentName: ContentBlock
+      fields:
+        heading: JSS Styleguide
+    - componentName: Button

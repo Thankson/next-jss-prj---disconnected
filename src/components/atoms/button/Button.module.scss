@@ -1,0 +1,9 @@
+.aButton {
+  @apply bg-green-700 uppercase font-normal text-white text-sm rounded px-10 py-8 inline-flex items-center;
+
+  &:hover,
+  &:active,
+  &:focus {
+      @apply font-medium bg-green-300;
+  }
+}
