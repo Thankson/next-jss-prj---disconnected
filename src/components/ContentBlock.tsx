@@ -1,5 +1,7 @@
 import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
+import styles from './ContentBlock.module.scss';
+import variables from '../styles/variables.module.scss';
 
 type ContentBlockProps = ComponentProps & {
   fields: {
@@ -15,6 +17,10 @@ type ContentBlockProps = ComponentProps & {
  */
 const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => (
   <div className="contentBlock">
+    <code>
+      The quick <span className={styles.brownText}>brown</span> fox{' '}
+      <span style={{ color: variables.primaryColor }}>jumps over</span> the lazy dog.
+    </code>
     <Text tag="h2" className="contentTitle" field={fields.heading} />
 
     <RichText className="contentDescription" field={fields.content} />

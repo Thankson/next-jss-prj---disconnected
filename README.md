@@ -8,3 +8,6 @@
 
 > with tailwindcss
 [Install Tailwind CSS with Next.js](https://tailwindcss.com/docs/guides/nextjs)
+
+> with scss
+[Sass Support](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support)
